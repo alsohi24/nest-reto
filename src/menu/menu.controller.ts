@@ -7,15 +7,15 @@ export class MenuController {
     return [
       {
         role: 'admin',
+        menu: 'task',
+      },
+      {
+        role: 'admin',
         menu: 'associate',
       },
       {
         role: 'admin',
         menu: 'customer',
-      },
-      {
-        role: 'admin',
-        menu: 'user',
       },
     ];
   }

@@ -7,6 +7,10 @@ export class RoleaccessController {
     return [
       {
         role: 'admin',
+        menu: 'task',
+      },
+      {
+        role: 'admin',
         menu: 'associate',
       },
       {
